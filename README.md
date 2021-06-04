@@ -16,7 +16,7 @@ Open source database of exercises and equipment
 `equipment/<id>/symbol.png`  
 
 `disciplines.csv` - A list of athletic disciplines/programs/techniques referenced in this database  
-`athletic_goals.csv` - A list of athletic goals referenced in this database  
+`athletic_targets.csv` - A list of athletic targets referenced in this database  
 
 `docs/` - A directory containing information about how to use this database and how to contribute  
 
@@ -35,4 +35,3 @@ The `info.json` file for an exercise will have the following fields:
 |`disciplines` | A list of athletic disciplines/programs/techniques that utilitze this exercise. For example, strength training for bench press. | `string[]`|
 |`variations` | A list of canonical names of other exercises that can be considered a variation of this exercise. | `string[]` |
 |`variationOf` | A list of canonical names of other exercises that this exercise can be considered as a variation of. | `string[]` |
-|
