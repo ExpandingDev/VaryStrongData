@@ -26,6 +26,7 @@ The `info.json` file for an exercise will have the following fields:
 
 |Field | Description | Type |
 | ---:| --- |:--- |
+|`id`| ID of this exercise in the VaryStrongData database. | `int` |
 |`canonicalName` | Name assigned to this exercise within the VaryStrongData database. An exercise may commonly go by other names, but this is the name used within VaryStrongData for linking between exercises | `string`|
 |`alternateNames` | Other common names used to refer to this exercise. | `string[]` |
 |`prescribeTime` | Whether or not this exercise is usually prescribed in timed intervals. For example, a 1 minute plank or running for a half hour| `boolean` |
