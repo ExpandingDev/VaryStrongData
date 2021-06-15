@@ -1,0 +1,5 @@
+{
+  "canonicalName":"incline-bench",
+  "alternateNames":[],
+  "description":"Generic bench that sits at an incline, which may be anywhere between 30 and 60 degrees."
+}
