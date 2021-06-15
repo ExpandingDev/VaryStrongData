@@ -50,4 +50,5 @@ The `info.json` file for equipment will have the following rules:
 | ---: | --- | :--- |
 |`canonicalName` | Unique name assigned to this equipment within the VaryStrongData database. Equipment may go by other names, but this is the name used within the VaryStrongData for linking between exercises. | `string` |
 |`alternateNames` | Other common names used to refer to this equipment. | `string[]` |
+|`description` | Short description of what this equipment is. | `string` |
 

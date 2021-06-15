@@ -1,4 +1,5 @@
 {
   "canonicalName":"template-exercise",
-  "alternateNames":[]
+  "alternateNames":[],
+  "description":"Generic description for this template exercise"
 }
