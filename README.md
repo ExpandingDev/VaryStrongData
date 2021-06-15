@@ -4,19 +4,19 @@ Open source database of exercises and equipment
 ## Directory Structure
 
 `exercises/` - Holds data about exercises  
-`exercises/<id>/` - Holds data about the exercise with that ID  
-`exercises/<id>/info.json`
-`exercises/<id>/symbol.svg` - SVG graphic intended for a thumbnail/status/quick depiction of this exercise  
-`exercises/<id>/progression.`  
-`exercises/<id>/activation_chart.svg` - 
+`exercises/<canonical-name>/` - Holds data about the exercise with that canonical name
+`exercises/<canonical-name>/info.json`
+`exercises/<canonical-name>/symbol.svg` - SVG graphic intended for a thumbnail/status/quick depiction of this exercise  
+`exercises/<canonical-name>/progression.`  
+`exercises/<canonical-name>/activation_chart.svg` - 
 
 `exercises/default/symbol.svg` - Default SVG graphic for when an exercise lacks it's own symbol
 
 `equipment/` - Holds data about equipment  
-`equipment/<id>/` - Holds data for a specific piece of equipment   
-`equipment/<id>/info.json`  
-`equipment/<id>/symbol.svg` - SVG graphic intended for a thumbnail/status/quick depiction of this equipment  
-`equipment/<id>/photo.jpg` - A real photo of this type of equipment  
+`equipment/<canonical-name>/` - Holds data for a specific piece of equipment   
+`equipment/<canonical-name>/info.json`  
+`equipment/<canonical-name>/symbol.svg` - SVG graphic intended for a thumbnail/status/quick depiction of this equipment  
+`equipment/<canonical-name>/photo.jpg` - A real photo of this type of equipment  
 
 `equipment/default/symbol.svg` - Default SVG graphic for when an equipment lacks it's own symbol  
 `equipment/default/photo.jpg` - Default photo for when an equipment lacks it's own photo  
@@ -32,7 +32,6 @@ The `info.json` file for an exercise will have the following fields:
 
 |Field | Description | Type |
 | ---:| --- |:--- |
-|`id`| ID of this exercise in the VaryStrongData database. | `int` |
 |`canonicalName` | Unique name assigned to this exercise within the VaryStrongData database. An exercise may commonly go by other names, but this is the name used within VaryStrongData for linking between exercises | `string`|
 |`alternateNames` | Other common names used to refer to this exercise. | `string[]` |
 |`prescribeTime` | Whether or not this exercise is usually prescribed in timed intervals. For example, a 1 minute plank or running for a half hour| `boolean` |
@@ -49,7 +48,6 @@ The `info.json` file for equipment will have the following rules:
 
 |Field | Description | Type |
 | ---: | --- | :--- |
-|`id`| ID of this equipment in the VaryStrongData database. | `int` |
 |`canonicalName` | Unique name assigned to this equipment within the VaryStrongData database. Equipment may go by other names, but this is the name used within the VaryStrongData for linking between exercises. | `string` |
 |`alternateNames` | Other common names used to refer to this equipment. | `string[]` |
 
