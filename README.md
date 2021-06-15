@@ -28,7 +28,7 @@ Open source database of exercises and equipment
 
 ## Exercise Info File
 
-The `info.json` file for an exercise will have the following fields:
+The `<canonical-name>.json` file for an exercise will have the following fields:
 
 |Field | Description | Type |
 | ---:| --- |:--- |
@@ -44,7 +44,7 @@ The `info.json` file for an exercise will have the following fields:
 
 ## Equipment Info File
 
-The `info.json` file for equipment will have the following rules:
+The `<canonical-name>.json` file for equipment will have the following rules:
 
 |Field | Description | Type |
 | ---: | --- | :--- |
@@ -52,3 +52,12 @@ The `info.json` file for equipment will have the following rules:
 |`alternateNames` | Other common names used to refer to this equipment. | `string[]` |
 |`description` | Short description of what this equipment is. | `string` |
 
+## Muscle Info File
+
+The `<canonical-name>.json` file for a muscle will have the following fields:
+
+|Field | Description | Type|
+| ---: | --- | :--- |
+|`canonicalName` | Unique name assigne to this muscle for use within the VaryStrongData database. This muscle may be referred to by other names, but this is the name used to identify it. | `string` |
+|`alternateNames`| A list of other common names that this exercise may be referred to by. | `string[]` |
+|`groups` | A list of groups that this muscle can be considered a part of. | `string[]` |
