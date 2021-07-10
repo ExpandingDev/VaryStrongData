@@ -1,0 +1,11 @@
+{
+  "canonicalName":"incline-press",
+  "alternateNames": ["Incline Press", "Incline Bench Press", "Incline Barbell Bench Press"],
+  "prescribeTime": false,
+  "prescribeWeight": true,
+  "prescribeDistance": false,
+  "athleticTargets": ["strength"],
+  "disciplines": ["anaerobic", "strength training", "weight training", "strongman", "bodybuilding"],
+  "variations": ["db-incline-press"],
+  "variationOf": ["bench-press"]
+}

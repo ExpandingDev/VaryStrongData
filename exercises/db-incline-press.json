@@ -1,0 +1,11 @@
+{
+  "canonicalName":"db-incline-press",
+  "alternateNames": ["DB Incline Bench Press", "Dumbbell Incline Bench Press"],
+  "prescribeTime": false,
+  "prescribeWeight": true,
+  "prescribeDistance": false,
+  "athleticTargets":["strength"],
+  "disciplines": ["anaerobic", "weight training", "strength training", "bodybuilding", "strongman"],
+  "variations":["db-press"],
+  "variationOf":["db-press"]
+}

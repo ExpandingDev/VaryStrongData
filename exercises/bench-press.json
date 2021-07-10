@@ -1,0 +1,11 @@
+{
+  "canonicalName":"bench-press",
+  "alternateNames": ["Bench Press", "Barbell Bench Press"],
+  "prescribeTime": false,
+  "prescribeWeight": true,
+  "prescribeDistance": false,
+  "athleticTargets":["strength"],
+  "disciplines": ["anaerobic", "weight training", "strength training", "bodybuilding", "strongman"],
+  "variations":["incline-press", "close-grip-bench-press", "db-press"],
+  "variationOf":[]
+}

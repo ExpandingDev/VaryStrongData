@@ -1,0 +1,11 @@
+{
+  "canonicalName":"close-grip-bench-press",
+  "alternateNames": ["Close Grip Bench", "Close Grip Barbell Bench Press"],
+  "prescribeTime": false,
+  "prescribeWeight": true,
+  "prescribeDistance": false,
+  "athleticTargets": ["strength"],
+  "disciplines": ["anaerobic", "strength training", "weight training", "strongman", "bodybuilding"],
+  "variations": [],
+  "variationOf": ["bench-press"]
+}
